@@ -25,7 +25,7 @@ int main()
 	int n;
 	std::cout << "Enter the number of fibonacci numbers to write to the file: ";
 	std::cin >> n;
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < n; i++)
 	{
 		fio << fibonacci(i) << " ";
 	}
