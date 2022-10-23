@@ -4,7 +4,7 @@
 bool isPrime(int n) {
 	bool res = true;
 	if (n == 2) return res;
-	for (int i = 3; i <= sqrt(n); i++) {
+	for (int i = 2; i <= sqrt(n); i++) {
 		if (n % i == 0) {
 			res = false;
 			return res;
